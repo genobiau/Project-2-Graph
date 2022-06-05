@@ -1,0 +1,247 @@
+
+Gen@DESKTOP-V1SM20E MINGW64 ~ (master)
+$ pwd
+/c/Users/Gen
+
+Gen@DESKTOP-V1SM20E MINGW64 ~ (master)
+$ ls
+'3D Objects'/             Links/                                                                                         Pictures/       eclipse-workspace/
+ AppData/                'Local Settings'@                                                                               PrintHood@      git/
+'Application Data'@       MicrosoftEdgeBackups/                                                                          Recent@         modelio/
+ Contacts/                Music/                                                                                        'Saved Games'/   myproject/
+ Cookies@                'My Documents'@                                                                                 Searches/       ntuser.dat.LOG1
+ Demo/                    NTUSER.DAT                                                                                     SendTo@         ntuser.dat.LOG2
+ Desktop/                 NTUSER.DAT{32e5dcf6-3bca-11ec-90f4-8cf90ea4d4c3}.TM.blf                                       'Start Menu'@    ntuser.ini
+ Documents/               NTUSER.DAT{32e5dcf6-3bca-11ec-90f4-8cf90ea4d4c3}.TMContainer00000000000000000001.regtrans-ms   Templates@      projects/
+ Downloads/               NTUSER.DAT{32e5dcf6-3bca-11ec-90f4-8cf90ea4d4c3}.TMContainer00000000000000000002.regtrans-ms   Videos/
+ Favorites/               NetHood@                                                                                       __pycache__/
+ IntelGraphicsProfiles/   OneDrive/                                                                                      eclipse/
+
+Gen@DESKTOP-V1SM20E MINGW64 ~ (master)
+$ git clone https://github.com/genobiau/Project-2-Graph.git
+Cloning into 'Project-2-Graph'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+Resolving deltas: 100% (2/2), done.
+
+Gen@DESKTOP-V1SM20E MINGW64 ~ (master)
+$ ls
+'3D Objects'/             Links/                                                                                         Pictures/          eclipse/
+ AppData/                'Local Settings'@                                                                               PrintHood@         eclipse-workspace/
+'Application Data'@       MicrosoftEdgeBackups/                                                                          Project-2-Graph/   git/
+ Contacts/                Music/                                                                                         Recent@            modelio/
+ Cookies@                'My Documents'@                                                                                'Saved Games'/      myproject/
+ Demo/                    NTUSER.DAT                                                                                     Searches/          ntuser.dat.LOG1
+ Desktop/                 NTUSER.DAT{32e5dcf6-3bca-11ec-90f4-8cf90ea4d4c3}.TM.blf                                        SendTo@            ntuser.dat.LOG2
+ Documents/               NTUSER.DAT{32e5dcf6-3bca-11ec-90f4-8cf90ea4d4c3}.TMContainer00000000000000000001.regtrans-ms  'Start Menu'@       ntuser.ini
+ Downloads/               NTUSER.DAT{32e5dcf6-3bca-11ec-90f4-8cf90ea4d4c3}.TMContainer00000000000000000002.regtrans-ms   Templates@         projects/
+ Favorites/               NetHood@                                                                                       Videos/
+ IntelGraphicsProfiles/   OneDrive/                                                                                      __pycache__/
+
+Gen@DESKTOP-V1SM20E MINGW64 ~ (master)
+$ cd Project-2-Graph/
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ ls
+README.md
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ pwd
+/c/Users/Gen/Project-2-Graph
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ pwd
+/c/Users/Gen/Project-2-Graph
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ ls
+Project_2/  README.md
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git add .
+warning: LF will be replaced by CRLF in Project_2/DS Project2/.classpath.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Project_2/DS Project2/.project.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Project_2/DS Project2/.settings/org.eclipse.jdt.core.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Project_2/DS Project2/bin/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Project_2/DS Project2/src/ds/graph/PersonTest.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Project_2/DS Project2/src/ds/graph/tests/SocialGraphTest.java.
+The file will have its original line endings in your working directory
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit -m "First commit"
+[main 0d3743f] First commit
+ 15 files changed, 915 insertions(+)
+ create mode 100644 Project_2/DS Project2/.classpath
+ create mode 100644 Project_2/DS Project2/.project
+ create mode 100644 Project_2/DS Project2/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 Project_2/DS Project2/bin/.gitignore
+ create mode 100644 Project_2/DS Project2/bin/Edge/Edge.class
+ create mode 100644 Project_2/DS Project2/src/Edge/Edge.java
+ create mode 100644 Project_2/DS Project2/src/Person/Person.java
+ create mode 100644 Project_2/DS Project2/src/ds/graph/BreadthFirstSearch.java
+ create mode 100644 Project_2/DS Project2/src/ds/graph/Business.java
+ create mode 100644 Project_2/DS Project2/src/ds/graph/BusinessGraph.java
+ create mode 100644 Project_2/DS Project2/src/ds/graph/DepthFirstSearch.java
+ create mode 100644 Project_2/DS Project2/src/ds/graph/PersonTest.java
+ create mode 100644 Project_2/DS Project2/src/ds/graph/SocialGraph.java
+ create mode 100644 Project_2/DS Project2/src/ds/graph/tests/BusinessGraphTest.java
+ create mode 100644 Project_2/DS Project2/src/ds/graph/tests/SocialGraphTest.java
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git push
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (28/28), 8.75 KiB | 1.75 MiB/s, done.
+Total 28 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/genobiau/Project-2-Graph.git
+   c6bae31..0d3743f  main -> main
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git push
+Everything up-to-date
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git push
+Everything up-to-date
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git push
+Everything up-to-date
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git push
+Everything up-to-date
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git push
+Everything up-to-date
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit -m
+error: switch `m' requires a value
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git merge
+Already up to date.
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git push
+Everything up-to-date
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git merge
+Already up to date.
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit -m "Commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git push
+Everything up-to-date
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git merge
+Already up to date.
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git merge
+Already up to date.
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git push
+Everything up-to-date
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$ git commit -m"testing"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Gen@DESKTOP-V1SM20E MINGW64 ~/Project-2-Graph (main)
+$
